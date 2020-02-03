@@ -1,0 +1,44 @@
+.container {
+  height: 560px;
+  width: 900px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+  align-self: center;
+  position: relative;
+}
+
+#title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+  font: 12px;
+  opacity: 0;
+  background: lightsteelblue;
+  box-shadow: 1px 1px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.overlay {
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+}
+
+.axis {
+  position: absolute;
+  top: 6em;
+}
